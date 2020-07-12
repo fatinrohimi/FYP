@@ -1,7 +1,4 @@
 #! /usr/bin/env python
-# Name : Subodh Pachghare
-# CyberSpace Name : HaX0R (Cyberninja)
-# Website : www.thesubodh.com
 # Description : SYN Flood Packet creation for iptables prevention solution
 import sys
 from scapy.all import *
