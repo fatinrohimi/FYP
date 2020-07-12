@@ -12,4 +12,4 @@ unans.summary()
 print ("source port flags in response")
 #for s,r in ans:
 # print r.sprintf("%TCP.sport% \t %TCP.flags%")
-ans.make_table(lambda(s,r): (s.dst, s.dport, r.sprintf("%IP.id% \t %IP.ttl% \t %TCP.flags%")))
+#ans.make_table(lambda(s,r): (s.dst, s.dport, r.sprintf("%IP.id% \t %IP.ttl% \t %TCP.flags%")))
