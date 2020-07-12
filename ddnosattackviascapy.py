@@ -15,7 +15,7 @@ file_txt.writelines("\n")
 
 No_of_IPs = 15
 R_No_of_IPs = No_of_IPs +10
-   while True:
+   while True;
       pkt = s.recvfrom(2048)
       ipheader = pkt[0][14:34]
       ip_hdr = struct.unpack("!8sB3s4s4s",ipheader)
